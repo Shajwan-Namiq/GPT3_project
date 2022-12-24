@@ -3,10 +3,10 @@ import styles from "../../styles/Home.module.css";
 import React, { useState } from "react";
  import Link from "next/link";
 
-const navbar = () => {
+const Navbar = () => {
  
   const [flyer, setFlyer] = useState(false);
- const [navActive, setNavActive] = useState(null);
+ 
  
   return (
     <div className="lg:p-5  sm:p-0 m-0">
@@ -154,22 +154,22 @@ const navbar = () => {
 
             <div className="px-5 py-5 bg-[#040C18] space-y-6 sm:flex  sm:space-y-0 sm:space-x-10 sm:px-8">
               <div className="flow-root ">
-                <a
+                <Link
                   href="/sign_in"
                   className="flex justify-center text-center  border border-gray-700  p-3  rounded-md text-[18px] font-normal text-white hover:bg-[#FF4820] hover:text-white  "
                 >
                   <span className="ml-3 ">Sign in</span>
-                </a>
+                </Link>
               </div>
               <div className="flow-root">
-                <a
+                <Link
                   href="/sign_up"
                   className="flex justify-center text-center items-center p-3   rounded-md text-[18px]  font-normal text-white bg-[#FF4820] hover:bg-white hover:text-[#FF4820]"
                 >
                   {/* Heroicon name: outline/phone */}
 
                   <span className="ml-3">Sign up</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -179,4 +179,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
