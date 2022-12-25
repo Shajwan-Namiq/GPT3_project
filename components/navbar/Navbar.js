@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* Logo */}
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <Link href="/">
-                <span className="sr-only">Logo</span>
+               
                 <Image
                   src={"/logo.svg"}
                   alt="logo"
@@ -41,7 +41,7 @@ const Navbar = () => {
                   </svg>
                 ) : (
                   <svg
-                    className="h-6 w-6"
+                   width="25" height="25"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -60,7 +60,8 @@ const Navbar = () => {
             </div>
 
             <nav className="hidden lg:flex space-x-10">
-              <Link href="/" className="  text-[18px] font-normal text-white">
+              <Link href="/"
+               className="  text-[18px] font-normal text-white">
                 Home
               </Link>
               <Link
@@ -114,8 +115,8 @@ const Navbar = () => {
           onMouseLeave={() => setFlyer(false)}
           className={
             flyer
-              ? " opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10  mt-0 transform   lg:w-0  w-screen px-5   "
-              : " opacity-0 translate-y-1 absolute z-10    transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:right-1/2 lg:-translate-x-1/2"
+              ? " opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10  mt-0 transform  min-w-full px-5   "
+              : " hidden"
           }
         >
           <div className="rounded-lg shadow-lg ring-1 ring-white ring-opacity-5 overflow-hidden">
@@ -174,8 +175,24 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
+
+ 
+        
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+    
   );
 };
 

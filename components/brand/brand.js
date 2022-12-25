@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import styles from "../../styles/Home.module.css";
 
 const brand = () => {
   return (
-    <div>brand</div>
-  )
-}
+    <>
+    brand
+    </>
+  );
+};
 
-export default brand
+export default brand;

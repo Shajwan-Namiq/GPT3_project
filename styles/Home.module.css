@@ -1,27 +1,14 @@
- .home {
-     box-sizing: border-box;
-     background-color: #040C18;
-     padding: 0px;
-     margin: 0px;
-     scroll-behavior: smooth;
- }
- 
- .section_padding {
-     padding: 2rem 3rem;
- }
- 
- .section_margin {
-     margin: 4rem;
- }
- 
- .gradient_bg {
-     background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-     /* safari 5.1+,chrome 10+ */
-     background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-     /* opera 11.10+ */
-     background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-     /* ie 10+ */
-     background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-     /* global 92%+ browsers support */
-     background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
- }
+.home {
+    background-color: #040C18;
+}
+
+.text_gradient {
+    font-family: 'Manrope';
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

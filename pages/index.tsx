@@ -2,6 +2,7 @@
 
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+
  import {Footer , Blog , Possibility , Features , WhatGPT3 , Header } from '../containers';
  import {CTA , Brand , Navbar} from '../components';
 
@@ -13,8 +14,8 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.gradient_bg}>
         <Navbar />
-         <Header />
-      </div>
+       <div className='-mt-14'> <Header /></div>
+       </div>
      
       <Brand />
       <WhatGPT3 />
