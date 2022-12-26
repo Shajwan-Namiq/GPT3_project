@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="lg:w-[777px] flex items-center flex-col mt-8 space-x-3 lg:space-y-0 lg:flex-row ">
                   <Image
                     src={"/people.png"}
-                    alt="header image"
+                    alt="header-image"
                     width={181.79}
                     height={38}
                   />
@@ -52,7 +52,7 @@ const Header = () => {
             <div className="w-full lg:w-1/2  mt-6 lg:mt-0 ">
               <Image
                 src={"/ai.png"}
-                alt="header image"
+                alt="header-image"
                 width={667}
                 height={701}
               />
