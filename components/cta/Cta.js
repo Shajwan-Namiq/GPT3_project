@@ -7,7 +7,7 @@ const cta = () => {
       <section className="mx-5 lg:mx-16 border-1 rounded-lg ">
         {" "}
         <div class={styles.CTA_bg}>
-          <div class="container  lg:px-20 py-16 mx-auto flex items-center md:flex-row flex-col">
+          <div class="container  md:px-16 py-16 mx-auto flex items-center md:flex-row flex-col">
             <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
               <h2 class="text-[12px] text-black tracking-widest font-medium title-font mb-1">
                 Request Early Access to Get Started
