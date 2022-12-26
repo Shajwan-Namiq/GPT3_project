@@ -14,7 +14,7 @@ export default function Home() {
     <div className={styles.home}>
       <div className={styles.gradient_bg}>
         <Navbar />
-       <div className='-mt-14'> <Header /></div>
+        <Header /> 
        </div>
      
       <Brand />
