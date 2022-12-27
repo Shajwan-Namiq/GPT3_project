@@ -18,7 +18,7 @@ const Footer = () => {
             </h1>
 
             <div class="flex flex-col justify-center mx-auto mt-4 lg:mt-16 space-y-3 md:space-y-0 md:flex-row">
-              <button class="w-full border-2 text-[18px] border-white px-6 py-4 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none   hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+              <button class="w-full border-2 text-[18px] border-white px-6 py-4 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none   hover:bg-gray-500  focus:ring focus:ring-gray-300 focus:ring-opacity-80">
                 Request Early Access
               </button>
             </div>

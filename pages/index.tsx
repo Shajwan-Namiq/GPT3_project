@@ -1,5 +1,5 @@
  import styles from '../styles/Home.module.css'
-import {CTA , Brand , Navbar ,Header ,WhatGPT, Article,Footer} from '../components';
+import {CTA , Brand , Navbar ,Header ,WhatGPT, Article,Footer ,Feature} from '../components';
 
 
 
@@ -14,8 +14,9 @@ export default function Home() {
        </div>
       <Brand /> 
       <WhatGPT />
+      <Feature />
       <CTA /> 
-      <Article />
+      
       <Footer />
     
     </div>
