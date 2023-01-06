@@ -38,43 +38,43 @@ const Header = () => {
                 <div className="lg:w-[777px] flex items-center flex-col mt-8 space-x-3 lg:space-y-0 lg:flex-row ">
                   <div class="flex -space-x-4 ">
                     <Image
-                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      class="w-10 h-10 border-2 border-white rounded-full "
                       src={"/p1.png"}
                       alt="p1"
                       width={500}
                       height={500}
                     />
                     <Image
-                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                      src={"/p2.png"}
+                      class="w-10 h-10 border-2 border-white rounded-full "
+                      src={"/p1.png"}
                       alt="p2"
                       width={500}
                       height={500}
                     />
                     <Image
-                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                      src={"/p3.png"}
+                      class="w-10 h-10 border-2 border-white rounded-full "
+                      src={"/p1.png"}
                       alt="p3"
                       width={500}
                       height={500}
                     />
                     <Image
-                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                      src={"/p4.png"}
+                      class="w-10 h-10 border-2 border-white rounded-full "
+                      src={"/p1.png"}
                       alt="p4"
                       width={500}
                       height={500}
                     />
                     <Image
-                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
-                      src={"/p5.png"}
+                      class="w-10 h-10 border-2 border-white rounded-full "
+                      src={"/p1.png"}
                       alt="p5"
                       width={500}
                       height={500}
                     />
 
                     <a
-                      class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-[#13DED2] border-4 border-white rounded-full hover:bg-gray-400"
+                      class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-[#13DED2] border-2 border-white rounded-full hover:bg-gray-400"
                       href="#"
                     >
                       1.6k+
