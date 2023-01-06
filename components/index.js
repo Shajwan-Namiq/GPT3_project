@@ -7,3 +7,4 @@ export { default as Navbar } from "./navbar/Navbar";
 export { default as WhatGPT } from "./whatGPT3/WhatGPT3";
 export { default as Header } from "./header/Header";
 export { default as Footer } from "./footer/Footer";
+export { default as Possibility } from "./possibility/Possibility";
