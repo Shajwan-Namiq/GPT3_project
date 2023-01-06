@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="bg-[#031B34]">
         <header class="flex justify-center px-4 text-white">
           <div class="container px-6  py-10 lg:py-32">
-            <h1 class="font-bold text-center leading-[75px] text-[42px] lg:text-[62px]">
+            <h1 class="font-bold text-center lg:leading-[75px] text-[32px] lg:text-[62px]">
               <span className={styles.footer_text}>
                 {" "}
                 Do you want to step in to the <br />

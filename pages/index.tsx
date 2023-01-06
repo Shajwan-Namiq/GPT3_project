@@ -1,8 +1,6 @@
  import styles from '../styles/Home.module.css'
-import {CTA , Brand , Navbar ,Header ,WhatGPT, Article,Footer ,Feature,Possibility} from '../components';
-
-
-
+import {CTA , Brand , Navbar ,Header ,WhatGPT,Footer ,Feature,Possibility ,Blog} from '../components';
+ 
 
 export default function Home() {
   return (
@@ -19,6 +17,7 @@ export default function Home() {
       <Feature />
       <Possibility />
       <CTA /> 
+      <Blog /> 
        <Footer />
     
     </div>

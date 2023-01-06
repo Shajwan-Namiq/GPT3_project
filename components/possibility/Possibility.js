@@ -14,8 +14,8 @@ const Possibility = () => {
               alt="possibility"
               class="lg:w-1/2 w-full object-cover object-center rounded"
               src={"/possibility.png"}
-              width={200}
-              height={100}
+              width={500}
+              height={500}
             />
             <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-32">
               <h2 class="text-[16px] title-font text-[#71E5FF] tracking-widest ">

@@ -1,5 +1,4 @@
-
-export { default as Article } from "./article/Article";
+export { default as Blog } from "./blog/Blog";
 export { default as Brand } from "./brand/brand";
 export { default as CTA } from "./cta/Cta";
 export { default as Feature } from "./feature/Feature";
