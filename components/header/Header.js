@@ -36,12 +36,51 @@ const Header = () => {
                 </div>
 
                 <div className="lg:w-[777px] flex items-center flex-col mt-8 space-x-3 lg:space-y-0 lg:flex-row ">
-                  <Image
-                    src={"/people.png"}
-                    alt="header-image"
-                    width={181.79}
-                    height={38}
-                  />
+                  <div class="flex -space-x-4 ">
+                    <Image
+                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      src={"/p1.png"}
+                      alt="p1"
+                      width={500}
+                      height={500}
+                    />
+                    <Image
+                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      src={"/p2.png"}
+                      alt="p2"
+                      width={500}
+                      height={500}
+                    />
+                    <Image
+                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      src={"/p3.png"}
+                      alt="p3"
+                      width={500}
+                      height={500}
+                    />
+                    <Image
+                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      src={"/p4.png"}
+                      alt="p4"
+                      width={500}
+                      height={500}
+                    />
+                    <Image
+                      class="w-10 h-10 border-2 border-white rounded-full dark:border-gray-800"
+                      src={"/p5.png"}
+                      alt="p5"
+                      width={500}
+                      height={500}
+                    />
+
+                    <a
+                      class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-[#13DED2] border-4 border-white rounded-full hover:bg-gray-400"
+                      href="#"
+                    >
+                      1.6k+
+                    </a>
+                  </div>
+
                   <p className="lg:w-[554px] mt-4 text-white text-[12px]   font-normal">
                     1,600 people requested access a visit in last 24 hours
                   </p>
