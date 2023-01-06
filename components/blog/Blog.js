@@ -34,7 +34,7 @@ const Blog = () => {
 
                   <a
                     href="#"
-                    class="mt-1.5 inline-block lg:pt-52 text-[11.65px] font-medium  tracking-wide text-white hover:underline"
+                    class="mt-1.5 inline-block lg:mt-52 text-[11.65px] font-medium  tracking-wide text-white hover:underline"
                   >
                     Read Full Article
                   </a>
